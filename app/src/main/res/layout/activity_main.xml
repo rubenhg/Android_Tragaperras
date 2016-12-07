@@ -39,23 +39,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:id="@+id/image1" />
+        android:id="@+id/image1"
+        android:src="@drawable/tragaperras1" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
+        android:src="@drawable/tragaperras2"
         android:id="@+id/image2" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
+        android:src="@drawable/tragaperras3"
         android:id="@+id/image3" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jugar"
+            android:onClick="firstColumn"
             android:id="@+id/button1" />
 
     </LinearLayout>
@@ -70,22 +74,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras4"
             android:id="@+id/image4" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras5"
             android:id="@+id/image5" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras6"
             android:id="@+id/image6" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jugar"
+            android:onClick="secondColumn"
             android:id="@+id/button2" />
 
 
@@ -101,22 +109,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras7"
             android:id="@+id/image7" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras8"
             android:id="@+id/image8" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:src="@drawable/tragaperras9"
             android:id="@+id/image9" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jugar"
+            android:onClick="thirdColumn"
             android:id="@+id/button3" />
 
     </LinearLayout>
